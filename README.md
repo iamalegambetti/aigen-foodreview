@@ -1,2 +1,3 @@
-# aigen-foodreview
-A Multimodal Dataset of Machine-Generated Fake Reviews and Images
+# AiGen-FoodReview 
+
+AiGen-FoodReview is a multimodal dataset of machine-generated fake restaurant reviews and images.
