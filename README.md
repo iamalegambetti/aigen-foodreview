@@ -3,13 +3,14 @@
 AiGen-FoodReview is a multimodal dataset of machine-generated fake restaurant reviews and images.
 The dataset is divided into 3 splits: training (60%), validation (20%), and test (20%), named train.csv, val.csv, and test.csv, respectively. 
 
-Data Generation Methodology:
+## Data Generation Methodology
 ![alt text](assets/method.jpeg)
 
+## Variable Description
 Images are available at [link](https://drive.google.com/file/d/1FzBIklsUkNaBKdCWvjbeb3h4PH1zUI3Q/view?usp=sharing).
 Each image is named "ID.jpg", mapping to each review. 
 
-Variables description: 
+Features description: 
 
 - ID: Unique identifier. It maps to each review, either generated or authentic, and to each image. 
 - text: Review text.
@@ -36,3 +37,8 @@ Variables description:
 - vpvb: Vertical physical visual balance. Split image vertically. Vertical physical symmetry (mirroring)
 - hcvb: Horizontal color visual balance. Split image horizontally. Horizontal mirrored Euclidean cross-pixels distance.
 - vcvb: Vertical color visual balance. Split image vertically. Vertical mirrored Euclidean cross-pixels distance.
+
+
+## Authors
+- [Alessandro Gambetti](https://scholar.google.com/citations?user=F0MfEx8AAAAJ&hl=en)
+- [Qiwei Han](https://scholar.google.com/citations?user=koBWI88AAAAJ&hl=en)
