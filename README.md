@@ -3,7 +3,7 @@
 AiGen-FoodReview is a multimodal dataset of machine-generated fake restaurant reviews and images.
 The dataset is divided into 3 splits: training (60%), validation (20%), and test (20%), named train.csv, val.csv, and test.csv, respectively. 
 
-## Data Generation Methodology
+## Data Generation Methodology
 ![alt text](assets/method.jpeg)
 
 ## Variable Description
