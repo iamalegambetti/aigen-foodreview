@@ -7,7 +7,7 @@ The dataset is divided into 3 splits: training (60%), validation (20%), and test
 ![alt text](assets/method.jpeg)
 
 ## Variable Description
-Images are available at [link](https://drive.google.com/file/d/1FzBIklsUkNaBKdCWvjbeb3h4PH1zUI3Q/view?usp=sharing).
+Images are available to download at [link](https://drive.google.com/file/d/1FzBIklsUkNaBKdCWvjbeb3h4PH1zUI3Q/view?usp=sharing).
 Each image is named "ID.jpg", mapping to each review. 
 
 Features description: 
@@ -38,6 +38,10 @@ Features description:
 - hcvb: Horizontal color visual balance. Split image horizontally. Horizontal mirrored Euclidean cross-pixels distance.
 - vcvb: Vertical color visual balance. Split image vertically. Vertical mirrored Euclidean cross-pixels distance.
 
+Textual features were mined using [textstat](https://pypi.org/project/textstat/), while an explanation of viusal feautures can be found at [Gambetti&Han2022](https://www.emerald.com/insight/content/doi/10.1108/IJCHM-09-2021-1206/full/html).
+
+## Training and Evaluation
+Training and evaluation python scripts are available for text (BERT, GPTNeo), vision (ViT, ResNet), and multimodal models (FLAVA, CLIP). Each script comes with a CONFIG section in the beginning, with path and configuration parameters to be inserted. Optimized weights for each model are accessible at this [link](https://drive.google.com/file/d/1aYz5G6z9BL7mv9dL-JV2iay25EuKbgqn/view?usp=sharing). 
 
 ## Authors
 - [Alessandro Gambetti](https://scholar.google.com/citations?user=F0MfEx8AAAAJ&hl=en)
