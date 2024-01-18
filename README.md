@@ -2,6 +2,8 @@
 
 AiGen-FoodReview is a multimodal dataset of machine-generated fake restaurant reviews and images.
 The dataset is divided into 3 splits: training (60%), validation (20%), and test (20%), named train.csv, val.csv, and test.csv, respectively. 
+The paper is available on [ArXiv](https://arxiv.org/abs/2401.08825).
+The full dataset is also available on Zenodo at [link](https://zenodo.org/records/10511456).
 
 ## Data Generation Methodology
 ![alt text](assets/method.jpeg)
@@ -46,3 +48,15 @@ Training and evaluation python scripts are available for text (BERT, GPTNeo), vi
 ## Authors
 - [Alessandro Gambetti](https://scholar.google.com/citations?user=F0MfEx8AAAAJ&hl=en)
 - [Qiwei Han](https://scholar.google.com/citations?user=koBWI88AAAAJ&hl=en)
+
+## Cite Us
+```bibtex
+@misc{gambetti2024aigenfoodreview,
+      title={AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media}, 
+      author={Alessandro Gambetti and Qiwei Han},
+      year={2024},
+      eprint={2401.08825},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
