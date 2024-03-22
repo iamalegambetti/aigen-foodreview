@@ -16,5 +16,5 @@ $$ FRI = 206.835 - 1.015 \times \left( \frac{{\text{total words}}}{{\text{total 
 
 The Gunning Fog Index estimates the readability of a text by considering the number of complex words in relation to the total number of words and sentences. The formula for the Gunning Fog Index is:
 
-$$ GFI = 0.4 \times \left( \left( \frac{{\text{words}}}{{\text{sentences}}} \right) + 100 \times \left( \frac{{\text{complex words}}}{{\text{total words}}} \right) $$
+$$ GFI = 0.4 \times \left( \frac{{\text{words}}}{{\text{sentences}}} \right) + 100 \times \left( \frac{{\text{complex words}}}{{\text{total words}}} \right) $$
 
