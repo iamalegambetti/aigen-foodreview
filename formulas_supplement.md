@@ -35,4 +35,4 @@ $$ WPS = \frac{\text{words}}{\text{sentences}} $$
 
 Perplexity calculates the exponential weighted average of the negative log-likelihoods of a sequence of words $W$.
 
-$$ PPL(W) = \exp \left[ -\frac{1}{t} \sum_1^{t} \log p(w_i | w_{<i}) \right]$$ 
+$$ PPL(W) = \exp \left[ -\frac{1}{t} \sum_{i=1}^{t} \log p(w_i | w_{<i}) \right]  $$ 
