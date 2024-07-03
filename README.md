@@ -1,9 +1,12 @@
 # AiGen-FoodReview 
 
+[![Conference](https://img.shields.io/badge/ICWSM-2024-blue)](https://www.icwsm.org/2024/)
+
+This repository contains the code and data associated with the paper **"[AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media]"**, which has been accepted at the [International Conference on Web and Social Media (ICWSM) 2024](https://www.icwsm.org/2024/).
+The full dataset is also available on Zenodo at [link](https://zenodo.org/records/10511456).
+
 AiGen-FoodReview is a multimodal dataset of machine-generated fake restaurant reviews and images.
 The dataset is divided into 3 splits: training (60%), validation (20%), and test (20%), named train.csv, val.csv, and test.csv, respectively. 
-The paper is available on [ArXiv](https://arxiv.org/abs/2401.08825).
-The full dataset is also available on Zenodo at [link](https://zenodo.org/records/10511456).
 
 ## Data Generation Methodology
 ![alt text](assets/method.jpeg)
@@ -51,12 +54,12 @@ Training and evaluation python scripts are available for text (BERT, GPTNeo), vi
 
 ## Cite Us
 ```bibtex
-@misc{gambetti2024aigenfoodreview,
-      title={AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media}, 
-      author={Alessandro Gambetti and Qiwei Han},
-      year={2024},
-      eprint={2401.08825},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{gambetti2024aigen,
+  title={AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media},
+  author={Gambetti, Alessandro and Han, Qiwei},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={18},
+  pages={1935--1945},
+  year={2024}
 }
 ```
