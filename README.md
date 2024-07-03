@@ -2,7 +2,7 @@
 
 [![Conference](https://img.shields.io/badge/ICWSM-2024-blue)](https://www.icwsm.org/2024/)
 
-This repository contains the code and data associated with the paper **"[AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media]"**, which has been accepted at the [International Conference on Web and Social Media (ICWSM) 2024](https://www.icwsm.org/2024/).
+This repository contains the code and data associated with the paper **AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media**, which has been accepted at the [International Conference on Web and Social Media (ICWSM) 2024](https://www.icwsm.org/2024/).
 The full dataset is also available on Zenodo at [link](https://zenodo.org/records/10511456).
 
 AiGen-FoodReview is a multimodal dataset of machine-generated fake restaurant reviews and images.
