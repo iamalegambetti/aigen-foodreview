@@ -8,6 +8,10 @@ The full dataset is also available on Zenodo at [link](https://zenodo.org/record
 AiGen-FoodReview is a multimodal dataset of machine-generated fake restaurant reviews and images.
 The dataset is divided into 3 splits: training (60%), validation (20%), and test (20%), named train.csv, val.csv, and test.csv, respectively. 
 
+## Abstract
+Online reviews in the form of user-generated content (UGC) significantly impact consumer decision-making. However, the pervasive issue of not only human fake content but also machine-generated content challenges UGC's reliability. Recent advances in Large Language Models (LLMs) may pave the way to fabricate indistinguishable fake generated content at a much lower cost. Leveraging OpenAI's GPT-4-Turbo and DALL-E-2 models, we craft AiGen-FoodReview, a multimodal dataset of 20,144 restaurant review-image pairs divided into authentic and machine-generated. We explore unimodal and multimodal detection models, achieving 99.80% multimodal accuracy with FLAVA. We use attributes from readability and photographic theories to score reviews and images, respectively, demonstrating their utility as handcrafted features in scalable and interpretable detection models with comparable performance. This paper contributes by open-sourcing the dataset and releasing fake review detectors, recommending its use in unimodal and multimodal fake review detection tasks, and evaluating linguistic and visual features in synthetic versus authentic data.
+
+
 ## Data Generation Methodology
 ![alt text](assets/method.jpeg)
 
